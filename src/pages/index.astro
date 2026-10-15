@@ -1,4 +1,8 @@
 ---
+import { dynamic } from "astro:dynamic";
+const Header = dynamic(() => import("../components/Header.astro?assets"));
+const HeaderInline = dynamic(() => import("../components/HeaderInline.astro?assets"));
+//import Header from "../components/Header.astro"
 ---
 
 <html lang="en">
@@ -11,6 +15,7 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Header />
+		<HeaderInline />
 	</body>
 </html>

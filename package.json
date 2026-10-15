@@ -12,6 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.3.8"
+    "@astrojs/node": "https://pkg.pr.new/@astrojs/node@18326",
+    "astro": "https://pkg.pr.new/astro@18326"
   }
 }
